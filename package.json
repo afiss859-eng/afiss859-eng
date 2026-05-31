@@ -1,0 +1,29 @@
+{
+  "name": "lucifero-bot",
+  "version": "1.0.0",
+  "description": "𓅂𝐃𝚯𝐌𝚫 𝐋𝐔𝐂𝐈𝐅𝚵𝐑𝚯 𓅂 - WhatsApp XMD Multi-Device Bot",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "pair": "node src/pair.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "jimp": "^1.6.0",
+    "node-cache": "^5.1.2",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "xmd", "baileys", "multi-device"],
+  "author": "afiss859-eng",
+  "license": "MIT"
+}
